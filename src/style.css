@@ -33,7 +33,7 @@ img, button {
     transition:0.2s;
 }
 
-div.icons > button {
+div.icons button {
     border-radius:20px;
     font-family: 'roboto';
     background:#eeeeee;
@@ -43,6 +43,7 @@ div.icons > button {
     font-size:20px;
     font-weight:bold;
     border:none;
+    height:100%;
 }
 
 .icons button.active, .icons img.active {

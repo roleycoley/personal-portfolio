@@ -16,20 +16,24 @@ export default function Icons() {
           alt="github"
         />
       </a>
-      <button
-        onMouseEnter={() => setActiveB(true)}
-        onMouseLeave={() => setActiveB(false)}
-        className={activeB ? "active" : ""}
-      >
-        Resume
-      </button>
-      <img
-        onMouseEnter={() => setActiveC(true)}
-        onMouseLeave={() => setActiveC(false)}
-        className={activeC ? "active" : ""}
-        src="../linkedin.png"
-        alt="linkedin"
-      />
+      <a href="resume.pdf" target="_blank">
+        <button
+          onMouseEnter={() => setActiveB(true)}
+          onMouseLeave={() => setActiveB(false)}
+          className={activeB ? "active" : ""}
+        >
+          Resume
+        </button>
+      </a>
+      <a href="https://www.linkedin.com/in/coledungca" target="_blank">
+        <img
+            onMouseEnter={() => setActiveC(true)}
+            onMouseLeave={() => setActiveC(false)}
+            className={activeC ? "active" : ""}
+            src="../linkedin.png"
+            alt="linkedin"
+        />
+      </a>
     </div>
   );
 }

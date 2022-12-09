@@ -65,7 +65,7 @@ function App() {
         </div>
         <div
           class="bottom-section"
-          style={{ position: "relative", top: "100px", gap: "10px" }}
+          style={{ position: "relative", top: "100px", gap: "10px", display:'flex', flexDirection:'column', gap:'15px'}}
         >
           <div style={{ fontSize: "30px", textAlign: "center" }}>
             Let's get in touch!
