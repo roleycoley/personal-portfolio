@@ -37,14 +37,14 @@ body {
   display: flex;
   gap: 20px;
   justify-content: center;
-}
-
-img,
-button {
   transition: 0.2s;
 }
 
-div.icons button {
+.icons img, .icons div {
+    transition: 0.2s;
+}
+
+div.icons div {
   border-radius: 20px;
   font-family: "roboto";
   background: #eeeeee;
@@ -55,11 +55,13 @@ div.icons button {
   font-weight: bold;
   border: none;
   height: 100%;
-  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-.icons button.active,
-.icons img.active {
+.icons div:hover,
+.icons img:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -208,8 +210,6 @@ h3 {
   .navbar {
     display: none;
   }
-
-
 
   .section-one,
   .section-two,
