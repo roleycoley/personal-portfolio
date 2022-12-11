@@ -1,173 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
-html, body {
-    margin:0;
-    font-family: 'roboto';
-    font-weight:100;
-    background:#eeeeee;
-    height:100%;
-    scroll-behavior: smooth;
+html,
+body {
+  margin: 0;
+  font-family: "roboto";
+  font-weight: 100;
+  background: #eeeeee;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 .navbar {
-    background:rgb(24, 24, 24);
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    gap:10%;
-    width:100vw;
-    position:fixed;
-    z-index:1;
-    
+  background: rgb(24, 24, 24);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10%;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
 }
 
 .icons {
-    height:50px;
-    padding:10px;
-    display:flex;
-    gap:20px;
-    justify-content:center;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-img, button {
-    transition:0.2s;
+img,
+button {
+  transition: 0.2s;
 }
 
 div.icons button {
-    border-radius:20px;
-    font-family: 'roboto';
-    background:#eeeeee;
-    color:#252525;
-    text-transform: bold;
-    width:100px;
-    font-size:20px;
-    font-weight:bold;
-    border:none;
-    height:100%;
+  border-radius: 20px;
+  font-family: "roboto";
+  background: #eeeeee;
+  color: #252525;
+  text-transform: bold;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  height: 100%;
 }
 
-.icons button.active, .icons img.active {
-    transform:scale(1.2);
-    cursor:pointer;
+.icons button.active,
+.icons img.active {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .navbar > button {
-    background:none;
-    font-size:30px;
-    letter-spacing:2px;
-    border:none;
-    padding:20px;
-    transition:0.5s;
-    font-family: 'roboto';
-    
+  background: none;
+  font-size: 30px;
+  letter-spacing: 2px;
+  border: none;
+  padding: 20px;
+  transition: 0.5s;
+  font-family: "roboto";
 }
 
 .navbar > button:hover {
-    cursor:pointer;
-    transform: scale(1.4)
+  cursor: pointer;
+  transform: scale(1.4);
 }
 
 a {
-    text-decoration:none;
-    color:#eeeeee;
+  text-decoration: none;
+  color: #eeeeee;
 }
 
 .section-one {
-    background:#252525;
-    min-height:100vh;
-    z-index:-999;
-    display:flex;
-    flex-direction:column;
-    align-content:center;
-    justify-content:center;
-    gap:50px;
-    color:#eeeeee;
+  background: #252525;
+  min-height: 100vh;
+  z-index: -999;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  color: #eeeeee;
 }
 
 h1 {
-    text-align:center; 
-    font-size:100px;
-    margin:0;
-    letter-spacing:10px;
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  letter-spacing: 10px;
+}
+
+.profession {
+  font-size: 45px;
+  text-align: center;
+}
+
+.skills {
+  font-size: 25px;
+  word-spacing: 20px;
+  text-align: center;
 }
 
 .section-two {
-    display:flex;
-    padding:50px;
-    flex-direction:column;
-    gap:50px;
-    min-height:100vh;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 100vh;
 }
 
 h2 {
-    text-align:center;
-    font-size:50px;
-    color:rgb(24, 24, 24);
-    margin:0;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(24, 24, 24);
+  margin: 0;
 }
 
-
 .nested-second-section-container {
-    display:flex;
-    gap:40px;
-    flex-wrap:wrap;
-    justify-content:center;
-    
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nested-second-section-container > div {
-    height:300px;
-    min-width:450px;
-    position:relative;
-    border-radius:4px;
-    
+  height: 300px;
+  min-width: 450px;
+  position: relative;
+  border-radius: 4px;
 }
 
-
 .project-cover {
-    opacity:1;
-    transition:0.2s;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    position:absolute;
-    height:100%;
-    width:100%;
-    gap:20px;
-    font-size:35px;
-    letter-spacing:1px;
-    color:#252525;
-    background-color:#eeeeee;
-    pointer-events:none;
-    border: 1px solid #252525;
+  opacity: 1;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #252525;
+  background-color: #eeeeee;
+  pointer-events: none;
+  border: 1px solid #252525;
 }
 
 .project-cover-languages {
-    color:gray;
-    font-size:20px;
+  color: gray;
+  font-size: 20px;
 }
 
 .project-cover.active {
-    opacity:0;
+  opacity: 0;
 }
 
 .section-three {
-    background:#252525;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    gap:50px;
-    color:#eeeeee;
-    padding:50px;
-    align-content:center;
-    flex-wrap:wrap;
-    position:relative;
+  background: #252525;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: #eeeeee;
+  padding: 50px;
+  align-content: center;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 h3 {
-    font-size:50px;
-    color:#eeeeee;
-    margin:0;
-    text-align:center;
+  font-size: 50px;
+  color: #eeeeee;
+  margin: 0;
+  text-align: center;
+}
+
+.about {
+  min-width: 400px;
+  max-width: 700px;
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+
+  .section-one,
+  .section-two,
+  .section-three {
+    min-height: 600px;
+  }
+
+  .section-one, .section-three{
+    padding:50px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .profession {
+    font-size: 25px;
+  }
+
+  .skills {
+    font-size: 20px;
+    word-spacing: 10px;
+  }
+
+  .nested-second-section-container > div {
+    height: 215px;
+    min-width: 300px;
+  }
+
+  .project-cover {
+    pointer-events: none;
+  }
+
+  .nested-second-section-container img {
+    display: none;
+  }
+
+  .about {
+    min-width:200px;
+    max-width: 300px;
+    font-size: 20px;
+  }
 }
