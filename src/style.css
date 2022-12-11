@@ -21,6 +21,16 @@ body {
   z-index: 1;
 }
 
+.navbar-mobile {
+    width:100vw;
+    height:50px;
+    position:fixed;
+    bottom:0;
+    background: rgb(24, 24, 24);
+    z-index: 1;
+    display:none;
+  }
+
 .icons {
   height: 50px;
   padding: 10px;
@@ -45,6 +55,7 @@ div.icons button {
   font-weight: bold;
   border: none;
   height: 100%;
+  text-align:center;
 }
 
 .icons button.active,
@@ -132,6 +143,11 @@ h2 {
   border-radius: 4px;
 }
 
+.nested-second-section-container img{
+    height:100%;
+    width:100%;
+}
+
 .project-cover {
   opacity: 1;
   transition: 0.2s;
@@ -193,6 +209,8 @@ h3 {
     display: none;
   }
 
+
+
   .section-one,
   .section-two,
   .section-three {
@@ -225,13 +243,15 @@ h3 {
     pointer-events: none;
   }
 
-  .nested-second-section-container img {
-    display: none;
-  }
-
   .about {
     min-width:200px;
     max-width: 300px;
     font-size: 20px;
+  }
+
+  .navbar-mobile {
+    display:none;
+    justify-content:center;
+    align-content:center;
   }
 }

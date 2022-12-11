@@ -18,9 +18,9 @@ function App() {
         </button>
       </div>
 
-      <div className="mobile-navbar">
+      <div className="navbar-mobile">
 
-        
+
       </div>
 
       <div id="first-section" className="section-one">
