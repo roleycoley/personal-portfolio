@@ -96,6 +96,7 @@ a {
   justify-content: center;
   gap: 50px;
   color: #eeeeee;
+  padding:50px;
 }
 
 h1 {
@@ -206,6 +207,12 @@ h3 {
   letter-spacing: 1px;
 }
 
+@media (orientation: landscape) and (max-width:900px) {
+    .navbar {
+        display:none;
+    }
+}
+
 @media (max-width: 500px) {
   .navbar {
     display: none;
@@ -215,10 +222,6 @@ h3 {
   .section-two,
   .section-three {
     min-height: 600px;
-  }
-
-  .section-one, .section-three{
-    padding:50px;
   }
 
   h1 {
@@ -255,3 +258,12 @@ h3 {
     align-content:center;
   }
 }
+
+/*@media (max-height: 400px) {
+    .section-one,
+    .section-two,
+    .section-three {
+        min-height: fit-content;
+        padding:50px;
+    }
+}*/

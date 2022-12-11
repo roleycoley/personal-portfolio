@@ -59,8 +59,7 @@ function App() {
         <div
           class="bottom-section"
           style={{
-            position: "relative",
-            top: "100px",
+            marginTop:'100px',
             gap: "10px",
             display: "flex",
             flexDirection: "column",
