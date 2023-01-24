@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <div className="navbar">
-        a
         <button>
           <a href="#first-section">Home</a>
         </button>
