@@ -141,9 +141,11 @@ h2 {
 
 .nested-second-section-container > div {
   height: 300px;
-  min-width: 450px;
+  width: 450px;
   position: relative;
   border-radius: 4px;
+  text-align:center;
+
 }
 
 .nested-second-section-container img{
@@ -167,8 +169,10 @@ h2 {
   color: #252525;
   background-color: #eeeeee;
   pointer-events: none;
-  border: 1px solid #252525;
+  border: 1px solid #252525;box-sizing: border-box;
+  padding:20px;
 }
+
 
 .project-cover-languages {
   color: gray;
@@ -239,7 +243,7 @@ h3 {
 
   .nested-second-section-container > div {
     height: 215px;
-    min-width: 300px;
+    width: 300px;
   }
 
   .project-cover {
@@ -250,6 +254,7 @@ h3 {
     min-width:200px;
     max-width: 300px;
     font-size: 20px;
+    text-align: center;
   }
 
   .navbar-mobile {
@@ -258,6 +263,7 @@ h3 {
     align-content:center;
   }
 }
+
 
 /*@media (max-height: 400px) {
     .section-one,

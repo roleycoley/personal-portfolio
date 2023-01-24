@@ -11,7 +11,7 @@ export default function Project({ name, languages, picture, url }) {
       className="project-container"
     >
       <div className={active ? "active project-cover" : "project-cover"}>
-        <div>{name}</div>
+        <div style={{}}>{name}</div>
         <div className="project-cover-languages">{languages}</div>
       </div>
       <a href={url} target="_blank">

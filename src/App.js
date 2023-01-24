@@ -18,10 +18,7 @@ function App() {
         </button>
       </div>
 
-      <div className="navbar-mobile">
-
-
-      </div>
+      <div className="navbar-mobile"></div>
 
       <div id="first-section" className="section-one">
         <h1>COLE DUNGCA</h1>
@@ -34,6 +31,12 @@ function App() {
       <div className="section-two">
         <h2 id="second-section">Projects</h2>
         <div className="nested-second-section-container">
+          <Project
+            name="Food Finder"
+            languages="MongoDB - Express - React - Node - SCSS"
+            url="https://https://foodfinderapp.org/"
+            picture="food-finder-preview.png"
+          />
           <Project
             name="Yeti Furniture"
             languages="React - SCSS"
@@ -59,7 +62,7 @@ function App() {
         <div
           class="bottom-section"
           style={{
-            marginTop:'100px',
+            marginTop: "100px",
             gap: "10px",
             display: "flex",
             flexDirection: "column",
