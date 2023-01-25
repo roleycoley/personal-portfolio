@@ -34,7 +34,7 @@ function App() {
           <Project
             name="Food Finder"
             languages="MongoDB - Express - React - Node - SCSS"
-            url="https://https://foodfinderapp.org/"
+            url="https://foodfinderapp.org/"
             picture="food-finder-preview.png"
           />
           <Project
