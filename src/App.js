@@ -22,7 +22,7 @@ function App() {
 
       <div id="first-section" className="section-one">
         <h1>COLE DUNGCA</h1>
-        <div className="profession">Passionate Software Developer</div>
+        <div className="profession">Software Developer</div>
         <div className="skills">
           Java - Python - HTML5 - CSS3 - JavaScript - React
         </div>
@@ -55,9 +55,7 @@ function App() {
       <div className="section-three">
         <h3 id="third-section">About</h3>
         <div className="about">
-          I chose coding as a profession not only because of the creative
-          freedom it offers, but to also work in an environment of innovative
-          thinkers.
+          I pursued coding as a career because it offers both creative freedom and the opportunity to work alongside innovative minds.
         </div>
         <div
           class="bottom-section"
